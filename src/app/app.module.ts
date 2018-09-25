@@ -11,13 +11,13 @@ import {StompConfig, StompService} from '@stomp/ng2-stompjs';
 
 const stompConfig: StompConfig = {
   // Which server?
-  url: 'ws://127.0.0.1:15674/ws',
+  url: 'ws://localhost:8080/ws',
 
   // Headers
   // Typical keys: login, passcode, host
   headers: {
-    login: 'guest',
-    passcode: 'guest'
+  //   login: 'guest',
+  //   passcode: 'guest'
   },
 
   // How often to heartbeat?
